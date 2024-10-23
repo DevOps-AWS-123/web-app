@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Web App</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1 class="animated-title">Welcome to My Interactive Web App!</h1>
+
+    <div class="card" onclick="changeColor()">
+      <h2>Click Me!</h2>
+      <p>This card will change color when clicked.</p>
+    </div>
+
+    <button class="animate-button" onclick="showMessage()">Click for a Surprise!</button>
+
+    <div id="message" class="message hidden">Hello, this is your surprise message!</div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
